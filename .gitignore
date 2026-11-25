@@ -1,0 +1,29 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y datos sensibles
+.env
+.env.*
+!.env.example
+
+# Configuracion local de editores
+.vscode/
+.idea/
+
+# Cache de herramientas de desarrollo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de registro
+*.log
